@@ -1,18 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { 
-  Wrench, 
-  Battery, 
-  Thermometer, 
-  Zap, 
-  AlertTriangle, 
-  CheckCircle, 
-  Clock, 
-  TrendingUp,
-  Settings,
-  Activity,
-  Gauge,
-  Tool
-} from 'lucide-react';
+import { Wrench, Battery, Thermometer, Zap, AlertTriangle, CheckCircle, Clock, TrendingUp, Settings, Activity, Gauge, PenTool as Tool } from 'lucide-react';
 
 interface Equipment {
   id: string;
