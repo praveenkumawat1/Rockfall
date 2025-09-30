@@ -286,7 +286,7 @@ const LiveAssetTracking: React.FC = () => {
           
           <div className="relative bg-gray-700 rounded-lg overflow-hidden aspect-video">
             <img 
-              src="https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src="https://img.freepik.com/premium-photo/open-pit-open-pit-mining-open-pit-mine-aerial-view_438099-29919.jpg?w=2000"
               alt="Mining Site 3D View"
               className="w-full h-full object-cover brightness-75"
             />
@@ -345,7 +345,7 @@ const LiveAssetTracking: React.FC = () => {
             <h5 className="text-sm font-medium mb-3">3D Slope Model</h5>
             <div className="relative bg-gray-600 rounded aspect-video">
               <img 
-                src="https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=600"
+                src="https://img.freepik.com/premium-photo/open-pit-open-pit-mining-open-pit-mine-aerial-view_438099-29919.jpg?w=2000"
                 alt="3D Slope Model"
                 className="w-full h-full object-cover rounded brightness-50"
               />
