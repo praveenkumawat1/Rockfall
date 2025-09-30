@@ -9,6 +9,10 @@ import WeatherForecast from './WeatherForecast';
 import LiveAssetTracking from './LiveAssetTracking';
 import SlopeMovements from './SlopeMovements';
 import ReportsSection from './ReportsSection';
+import AdvancedControlCenter from './AdvancedControlCenter';
+import GeologicalAnalysis from './GeologicalAnalysis';
+import SafetyCompliance from './SafetyCompliance';
+import EquipmentHealth from './EquipmentHealth';
 import { generateSensorData, calculateRiskScore, detectMotion } from '../utils/dataSimulation';
 import type { SensorData, RiskFactors } from '../types';
 
@@ -76,6 +80,18 @@ const Dashboard: React.FC = () => {
 
         {/* Asset Tracking */}
         <LiveAssetTracking />
+
+        {/* Advanced Control Center */}
+        <AdvancedControlCenter riskLevel={currentRisk} />
+
+        {/* Geological Analysis */}
+        <GeologicalAnalysis sensorData={sensorData} />
+
+        {/* Equipment Health & Safety */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <EquipmentHealth />
+          <SafetyCompliance />
+        </div>
 
         {/* Bottom Row - Slope Movements and Reports */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
